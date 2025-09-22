@@ -81,17 +81,22 @@ TinderMuse is a simple web application built with Streamlit that uses Google's G
     ```bash
 # Install uv (if not already installed)
 # On Windows:
+
+```
 powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
 
 # On macOS/Linux:
+
+```
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 #### 2. Clone Repository
-    ```bash
+```bash
 git clone https://github.com/HarshTomar1234/tindermuse.git
 cd tindermuse
-    ```
+ ```
 
 #### 3. Setup Project Environment
     ```bash
@@ -100,8 +105,12 @@ uv sync
 
 # Activate the virtual environment
 # On Windows:
+```
 .venv\Scripts\activate
+```
+
 # On macOS/Linux:
+```
 source .venv/bin/activate
 ```
 
@@ -118,7 +127,9 @@ source .venv/bin/activate
 #### 1. Start the Application
     ```bash
 # Run the Streamlit application
+```
 uv run streamlit run main.py
+```
 
 # Alternative if uv run doesn't work:
     streamlit run main.py
