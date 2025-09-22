@@ -1,0 +1,10 @@
+[project]
+name = "tindermuse"
+version = "0.1.0"
+description = "Tinder profile image generator"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-genai>=1.38.0",
+    "streamlit>=1.49.1",
+]
