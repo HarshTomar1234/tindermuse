@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img src="./images/tindermuse_interface.png" alt="TinderMuse Logo" width="200">
+  <img src="./images/tindermuse_interface.png" alt="TinderMuse Logo" width="1000">
   <h1 align="center">TinderMuse</h1>
   <p align="center">
     <strong>AI-Powered Profile Picture Enhancement for Dating Applications</strong>
@@ -53,7 +53,7 @@ TinderMuse is a simple web application built with Streamlit that uses Google's G
 
 ### Transformation Examples
 <div align="center">
-  <img src="./images/tinder_profile.png" alt="profile picture enhancement" width="500">
+  <img src="./images/tinder_profile.png" alt="profile picture enhancement" width="700">
   <p><i>Demonstration of AI-powered photo enhancement for dating profile optimization</i></p>
 </div>
 
