@@ -1,4 +1,3 @@
-
 <div align="center">
   <img src="./images/tindermuse_interface.png" alt="TinderMuse Logo" width="1000">
   <h1 align="center">TinderMuse</h1>
@@ -78,17 +77,14 @@ TinderMuse is a simple web application built with Streamlit that uses Google's G
 ### Installation Process
 
 #### 1. Install uv Package Manager
-    ```bash
-# Install uv (if not already installed)
-# On Windows:
 
-```
+**On Windows:**
+```powershell
 powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
-# On macOS/Linux:
-
-```
+**On macOS/Linux:**
+```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
@@ -96,21 +92,23 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 ```bash
 git clone https://github.com/HarshTomar1234/tindermuse.git
 cd tindermuse
- ```
+```
 
 #### 3. Setup Project Environment
-    ```bash
+```bash
 # Create virtual environment and install dependencies
 uv sync
-
-# Activate the virtual environment
-# On Windows:
 ```
+
+**Activate the virtual environment:**
+
+**On Windows:**
+```cmd
 .venv\Scripts\activate
 ```
 
-# On macOS/Linux:
-```
+**On macOS/Linux:**
+```bash
 source .venv/bin/activate
 ```
 
@@ -125,15 +123,13 @@ source .venv/bin/activate
 ### Application Launch
 
 #### 1. Start the Application
-    ```bash
+```bash
 # Run the Streamlit application
-```
 uv run streamlit run main.py
-```
 
 # Alternative if uv run doesn't work:
-    streamlit run main.py
-    ```
+streamlit run main.py
+```
 
 #### 2. Access Web Interface
 - Application launches automatically in your default browser
@@ -172,7 +168,7 @@ uv run streamlit run main.py
 ### Advanced Prompt Engineering
 
 #### Professional Enhancement Prompts
-```
+```text
 Professional Photography Style:
 "Transform this into a professional headshot with studio lighting, clean background, and polished appearance suitable for LinkedIn or dating profiles"
 
@@ -184,7 +180,7 @@ Artistic Transformation:
 ```
 
 #### Background and Atmosphere Modifications
-```
+```text
 Urban Professional:
 "Place this person in a modern urban setting with soft city bokeh background, maintaining natural lighting and professional appearance"
 
@@ -196,7 +192,7 @@ Studio Setting:
 ```
 
 #### Technical Quality Improvements
-```
+```text
 Lighting Enhancement:
 "Improve facial lighting with soft, even illumination, reduce harsh shadows, and enhance skin tone for a natural, flattering appearance"
 
@@ -252,6 +248,7 @@ Resolution and Clarity:
 
 #### API Authentication Problems
 **Issue**: "Invalid API Key" or authentication failures
+
 **Resolution**:
 1. Verify API key accuracy (no extra spaces or characters)
 2. Confirm API key is active in Google AI Studio
@@ -260,6 +257,7 @@ Resolution and Clarity:
 
 #### Environment Setup Issues
 **Issue**: Package installation or environment problems
+
 **Resolution**:
 ```bash
 # Verify uv installation
@@ -278,6 +276,7 @@ uv pip install -r requirements.txt
 
 #### Application Launch Problems
 **Issue**: Streamlit application fails to start
+
 **Resolution**:
 ```bash
 # Check port availability
@@ -293,6 +292,7 @@ uv run streamlit run main.py --server.headless false
 
 #### Image Processing Issues
 **Issue**: Poor quality results or processing failures
+
 **Resolution**:
 - Ensure source images meet minimum quality standards (512x512px+)
 - Optimize image file size (under 10MB recommended)
@@ -310,12 +310,9 @@ uv run streamlit run main.py --server.headless false
 ### Cloud Platform Deployment
 
 #### Streamlit Cloud
-```bash
-# Prerequisites: GitHub repository with TinderMuse code
-1. Connect repository to Streamlit Cloud (https://streamlit.io/cloud)
-2. Configure secrets management with GOOGLE_API_KEY
+1. Connect repository to [Streamlit Cloud](https://streamlit.io/cloud)
+2. Configure secrets management with `GOOGLE_API_KEY`
 3. Deploy with automatic domain and SSL certificate
-```
 
 #### Heroku Platform
 ```bash
