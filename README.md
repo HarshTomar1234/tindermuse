@@ -400,9 +400,6 @@ For technical support, feature requests, or collaboration inquiries:
 
 ## Legal & Licensing
 
-### Open Source License
-This project operates under the **MIT License**, providing broad permissions for use, modification, and distribution. Full license terms are available in the LICENSE file.
-
 ### Dependency Licensing
 - **Streamlit**: Apache License 2.0
 - **Google Generative AI**: Governed by Google AI Platform Terms of Service
@@ -421,9 +418,5 @@ TinderMuse is provided as-is for educational and personal use. The developers as
 ---
 
 <div align="center">
-  <p><strong>TinderMuse - AI-Powered Profile Enhancement</strong></p>
-  <p>
-    Developed by Harsh Tomar | 
-    <a href="https://github.com/HarshTomar1234">GitHub Profile</a>
-  </p>
+  <p><strong> ❤️❤️TinderMuse - AI-Powered Profile Enhancement✨✨</strong></p>
 </div>
