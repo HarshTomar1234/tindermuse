@@ -414,5 +414,5 @@ TinderMuse is provided as-is for educational and personal use. The developers as
 ---
 
 <div align="center">
-  <p><strong> ❤️❤️TinderMuse - AI-Powered Profile Enhancement✨✨</strong></p>
+  <p><strong> ❤️❤️TinderMuse - tinder profile image generator✨✨</strong></p>
 </div>
