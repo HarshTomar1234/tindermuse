@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./images/tindermuse_interface.png" alt="TinderMuse Logo" width="1000">
+  <img src="./images/tindermuse_interface.png" alt="TinderMuse Logo" width="1500">
   <h1 align="center">TinderMuse</h1>
   <p align="center">
     <strong>AI-Powered Profile Picture Enhancement for Dating Applications</strong>
@@ -47,23 +47,22 @@ TinderMuse is a simple web application built with Streamlit that uses Google's G
 ### User Interface
 <div align="center">
   <img src="./images/tindermuse_interface.png" alt="TinderMuse Application Interface" width="700">
-  <p><i>Streamlined web interface featuring side-by-side comparison view</i></p>
 </div>
 
 ### Transformation Examples
 <div align="center">
-  <img src="./images/tinder_profile.png" alt="profile picture enhancement" width="700">
-  <p><i>Demonstration of AI-powered photo enhancement for dating profile optimization</i></p>
+  <img src="./images/tinder_profile.png" alt="profile picture enhancement" width="900">
+  <p><i>Streamlined web interface featuring side-by-side comparison view</i></p>
 </div>
 
 <div align="center">
   <img src="./images/tindermuse.png" alt=" quality enhancement" width="700">
-  <p><i>Streamlined web interface featuring side-by-side comparison view</i></p>
+  <p><i>Demonstration of AI-powered photo enhancement for dating profile optimization</i></p>
 </div>
 
 <div align="center">
   <img src="./images/shot_pic.png" alt="background setup" width="700">
-  <p><i>Streamlined web interface featuring side-by-side comparison view</i></p>
+  <p><i>picture quality enhancement and background setup modification</i></p>
 </div>
 
 ## Installation & Setup
