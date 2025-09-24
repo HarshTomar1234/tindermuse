@@ -396,6 +396,9 @@ For technical support, feature requests, or collaboration inquiries:
 
 ## Legal & Licensing
 
+### Project License
+This project is licensed under the MIT License. See the LICENSE[LICENSE] file for details.
+
 ### Dependency Licensing
 - **Streamlit**: Apache License 2.0
 - **Google Generative AI**: Governed by Google AI Platform Terms of Service
